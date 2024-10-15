@@ -1,0 +1,16 @@
+# I Don't Mind
+# The perks have 3 levels; you need to put [level1, l2, l3] values in every perk
+iDontMind:
+  healthMax: [0.35, 0.4, 0.5] # 1 -> 100%, 0.5 -> 50%
+  keepInventoryValue: [0.3, 0.5, 0.6] # Keep the % of inventory when the player dies
+  lootBoost: [0.1, 0.3, 0.5] 
+  regenHealth: # Regeneration
+    points: 2 # x points of life [2 points == 1 heart]
+    every: 1200 # every 1200 ticks [20 ticks == 1 second]
+  tokens:
+    maxTokens: [1, 2, 3] # Max tokens per level
+    entitiesDied: [50, 40, 30] # Give a token every x entities killed by the player
+    lossTokensWhenDead: true 
+  speedLevel: [1, 2, 3] # Level of Speed effect
+  time: 100 # Activation time in ticks, 60 ticks for the speed effect and invulnerability
+  cooldown: 1800 # Cooldown time

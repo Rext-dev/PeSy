@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cSpell.words": [
+        "Bukkit",
+        "cooldown",
+        "Cooldown",
+        "dontmind",
+        "pesy",
+        "regen",
+        "respawn"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

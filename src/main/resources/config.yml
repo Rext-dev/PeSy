@@ -1,0 +1,26 @@
+config:
+  lang: es
+  prefix: "&9[&6RextP&9]"
+
+perks:
+  Global:
+    showPluginPrefix: true
+    # When a player gains a status like invincible, show a message like:
+    # "You are invincible for 10 seconds"
+    showStartStatus: true
+    # When a player tries to use a perk, if the perk is on cooldown or has a status like "exhausted", show:
+    # "You are exhausted, you cannot enable this perk"
+    # "This perk is on cooldown for x seconds"
+    showInCooldown: true
+    showStatusEnding:
+      # Show if a status is ending soon
+      enable: true
+      times:
+        - 60 # 3 seconds
+        - 40 # 2 seconds
+        - 20 # 1 second
+    showStatusEnd: true
+    # If you reload this plugin, send a message to the players about changes in their active perks
+    sendMessageInUpdate: true
+
+  
